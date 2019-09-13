@@ -4,24 +4,36 @@ import ReactDOM from "react-dom"; // sem o DOM não e possivel jogar os componen
 // import { CompA, CompB as B } from "./componetes/DoisComponentes";
 // import MultiElementos from "./componetes/MultiElementos";
 // import FamiliaSiva from "./componetes/FamiliaSilva";
-import Familia from "./componetes/Familia";
-import Membro from "./componetes/Membro";
+// import Familia from "./componetes/Familia";
+// import Membro from "./componetes/Membro";
+// import ComponenteComFuncao from "./componetes/ComponenteComFuncao";
+// import Pai from "./componetes/Pai";
+// import ComponenteClasse from "./componetes/ComponenteClasse";
+import Contador from "./componetes/Contador";
 
 const elemento = document.getElementById("root");
 
 ReactDOM.render(
   <div>
-    <Familia>
-      <Membro nome="Pedro" sobrenome="Leda" />
-      <Membro nome="Grazi" sobrenome="Leda" />
-    </Familia>
+    <Contador numeroInicial={100} />
 
-    <Familia>
+    {/* <ComponenteClasse valor="Componente de Classe" /> */}
+
+    {/* <Pai /> */}
+    {/* <h2>Aprovados</h2>
+    <ComponenteComFuncao /> */}
+
+    {/* <Familia sobrenome=" Léda">
+      <Membro nome="Pedro" />
+      <Membro nome="Grazi" />
+    </Familia> */}
+
+    {/* <Familia>
       <Membro nome="Lucas" sobrenome="Silva" />
       <Membro nome="Junior" sobrenome="Silva" />
-    </Familia>
+    </Familia> */}
 
-    {/* <FamiliaSiva /> */}
+    {/* <FamiliaSiva />
 
     {/* <MultiElementos></MultiElementos> */}
 
